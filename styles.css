@@ -1,0 +1,150 @@
+#home {
+  height: 860px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: url('https://images.unsplash.com/photo-1507752533523-5186b0bc4c43?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+}
+
+.heading {
+color: white;
+font-family: 'Lobster', cursive;
+letter-spacing: 3px;
+}
+
+#about {
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  background: url('https://images.unsplash.com/photo-1508796028659-0680ab822890?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
+  background-size: cover;
+    text-align: center;
+}
+
+#projects {
+    height: 1100px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1472437774355-71ab6752b434?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+  }
+  #contact {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1477124508671-45ba8ede458f?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
+      background-size: cover;
+      height: 855px;
+      font-family: 'Lobster', sans-serif;
+      font-size: 18px;
+    }
+    .btn {
+      margin-right: 15px;
+}
+.navbar-brand{margin-right: 100px;}
+.white {color: white;
+font-family: 'Lobster', cursive;
+}
+.size {font-size: 22px;}
+
+.pad {padding-top: 30px;}
+
+.bg {
+text-align: center;
+padding: 10px 25px;
+ color: #D6B47E;
+ width: 400px;
+ background: url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/starfield/starfield-002539-blue-green-lilac.jpg") center center fixed;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.tit {  color: #f2f2f2;
+  background: rgba(115, 112, 119, 0.88);
+  font-size: 27px; line-height: 34px;
+  font-weight: 700;
+  margin: 0 5px 34px;
+  padding: 10px;
+  font-family: 'Lobster', serif, cursive;
+  letter-spacing: 3px;
+  opacity: 0.9; border-radius: 10px;}
+.punchline p { background: #f2f2f2; color: #ff4a4a;}
+
+.left {text-align: left;}
+
+.center {text-align: center;}
+
+.pol {
+  position: relative;
+  width: 220px;
+}
+
+.pol img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+          margin-top: 20px;
+}
+
+.pol p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+.contact a {
+  color: hotpink;}
+
+
+
+.bgi  {
+
+  background:
+  rgba(0,0,0,0.5);
+  font-size: 1.1em;
+}
+
+body {font-family: Monospace;}
+.but {display: block;}
+.icons {padding-top: 10px}
+
+.logo {
+  width: 50px;
+}
+
+form{
+  padding-top: 1em;
+
+}
+
+#close{
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+p{
+  color: white;
+  text-shadow: 1px,1px,black;
+}
+<<<<<<< HEAD
+.wrapper {
+   width: 50%;
+}
+.wrapper img {
+    max-width: 280px;
+}
+=======
+>>>>>>> d0bab7035a9fb17e8fecb8838f73873012f14a15
