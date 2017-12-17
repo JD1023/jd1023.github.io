@@ -1,0 +1,13 @@
+body{
+  color:white;
+
+  background-image:url("https://i.ytimg.com/vi/mX0akBKkPwI/maxresdefault.jpg")
+}
+
+img{
+  width:100%;
+}
+
+h1, h3{
+  font-family: 'Berkshire Swash', cursive;
+}
