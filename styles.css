@@ -28,8 +28,7 @@ letter-spacing: 3px;
     padding-top: 75px;
     padding-bottom: 50px;
     text-align: center;
-    background: url('https://images.unsplash.com/photo-1472437774355-71ab6752b434?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
-    background-size: cover;
+    background-color: rgb(102, 70, 170);
     height: auto;
   }
   #contact {
@@ -139,12 +138,13 @@ p{
   color: white;
   text-shadow: 1px,1px,black;
 }
-<<<<<<< HEAD
+
 .wrapper {
    width: 50%;
 }
 .wrapper img {
     max-width: 280px;
 }
-=======
->>>>>>> d0bab7035a9fb17e8fecb8838f73873012f14a15
+.img-circle{
+   margin: 0 auto;
+}
