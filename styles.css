@@ -28,7 +28,7 @@ letter-spacing: 3px;
     padding-top: 75px;
     padding-bottom: 50px;
     text-align: center;
-    background-color: rgb(102, 70, 170);
+    background-color: rgb(91, 91, 91);
     height: auto;
   }
   #contact {
@@ -43,6 +43,7 @@ letter-spacing: 3px;
     }
     .btn {
       margin-right: 15px;
+      margin-bottom: 3px;
 }
 .navbar-brand{margin-right: 100px;}
 .white {color: white;
