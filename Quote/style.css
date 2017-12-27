@@ -11,6 +11,7 @@
 }
 button{
   margin: 3px;
+  font-family: 'Shadows Into Light', cursive;
 }
 .fa {
     font-size: 32px;
@@ -49,5 +50,5 @@ h1{
   margin-top: 3px !important;
   font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
-  
+
 }
