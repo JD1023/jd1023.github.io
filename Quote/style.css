@@ -1,0 +1,18 @@
+
+
+.well{
+  opacity: 0.7;
+  border-radius: 10px;
+  box-shadow: 4px 4px black;
+}
+
+.tweet{
+  float: left;
+}
+button{
+  margin: 3px;
+}
+.fa {
+    font-size: 32px;
+    margin: 10px;
+}
