@@ -2,8 +2,7 @@ $(document).ready(function() {
   getQuote();
   $("#quote-btn").click(function(){
     getQuote();
-   $("body").css('backgroundColor', hue).;
-
+   $("body").css('backgroundColor', hue);
   });
    $('#tweet').on('click', tweetFunc);
    $("body").css('backgroundColor', hue);
