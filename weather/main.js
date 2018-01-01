@@ -33,12 +33,12 @@ $(document).ready(function() {
 
 
         $("#degrees").click(function() {
-            if ($("#degrees").html("C")){
+            if ($("#degrees").html() == "C"){
                     $("#temp").html(tempf);
                     $("#degrees").html("F");
 
             }
-             else if ($("#degrees").html("F")){
+             else if ($("#degrees").html() == "F"){
 
               $("#temp").html(tempc);
               $("#degrees").html("C");
