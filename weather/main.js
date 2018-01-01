@@ -6,7 +6,7 @@ $(document).ready(function() {
   navigator.geolocation.getCurrentPosition(function(position) {
   var latitude = position.coords.latitude;
   var longitude = position.coords.longitude;
-  var api = "http://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=aa5b7233c020e79895acdff601c9ab2c"
+  var api = "https://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=aa5b7233c020e79895acdff601c9ab2c"
 
 
 
@@ -32,20 +32,20 @@ $(document).ready(function() {
 
 
 
-      $("#degrees").click(function() {
-        if ($("#degrees").html("C")){
-                $("#temp").html(tempf);
-                $("#degrees").html("F");
+        $("#degrees").click(function() {
+            if ($("#degrees").html("C")){
+                    $("#temp").html(tempf);
+                    $("#degrees").html("F");
 
-        }
-         else if ($("#degrees").html("F")){
+            }
+             else if ($("#degrees").html("F")){
 
-          $("#temp").html(tempc);
-          $("#degrees").html("C");
+              $("#temp").html(tempc);
+              $("#degrees").html("C");
 
-        }
+            }
 
-      });
+          });
 
 
     switch (icon) {
