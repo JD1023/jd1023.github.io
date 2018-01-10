@@ -1,6 +1,7 @@
 $(document).ready(function() {
   getQuote();
   $("#quote-btn").click(function(){
+    window.navigator.vibrate(300);
     getQuote();
    $("body").css('backgroundColor', hue);
   });
