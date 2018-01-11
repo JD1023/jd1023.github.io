@@ -1,12 +1,12 @@
 $(document).ready(function(){
-
+$("#searchBox").focus();
  $("#searchButton").click(function(){
 
       var searchTerm = $("#searchBox").val();
   var apiLink = "https://en.wikipedia.org/w/api.php?action=opensearch&search="+searchTerm+"&format=json&callback=?";
 
   $("#searchBox").val("");
-
+  $("#searchBox").focus();
 
 $.getJSON(apiLink,function(data){
 
@@ -33,4 +33,4 @@ $.getJSON(apiLink,function(data){
    });
 
 
-});       
+});
