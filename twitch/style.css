@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(100,65,165) !important;
+}
+
+.name{
+  color: Blue;
+  font-size:1.8em;
+  margin:5px;
+  background-color:white;
+}
+
+.status{
+   color: black;
+  font-size:1.8em;
+  margin:5px;
+  background-color:white;
+}
+
+h1{
+  color:black;
+}
