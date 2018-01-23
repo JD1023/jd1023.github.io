@@ -4,12 +4,13 @@ h1{
   margin:auto;
   text-align:center;
 }
-    body {
+html, body {
       background-color: black;
-
+      margin: 0px;
+      height: 100%
 
     }
-    .container-fluid {
+    .container{
        display: flex;
         background-color: black;
         margin: auto;
