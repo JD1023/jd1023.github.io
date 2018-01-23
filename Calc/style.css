@@ -7,19 +7,18 @@ h1{
 html, body {
       background-color: black;
       margin: 0px;
-      height: 100%
+    
 
     }
-    .container{
-      
+    .container-fluid{
+
         background-color: black;
-        margin: auto;
-        overflow: hidden;
-        height: 100%;
+
     }
     table {
         width: 100%;
         border-color: black;
+
 
     }
     td {
