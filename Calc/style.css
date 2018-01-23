@@ -6,14 +6,15 @@ h1{
 }
     body {
       background-color: black;
-    
+
 
     }
-    .container {
+    .container-fluid {
        display: flex;
         background-color: black;
         margin: auto;
-
+        overflow: hidden;
+        height: 100%;
     }
     table {
         width: 100%;
