@@ -3,11 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Snake Game</title>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
   </head>
   <body>
-    <!-- Lets make a simple snake game -->
-<canvas id="canvas" width="450" height="450"></canvas>
+
+
+      <canvas id="canvas" width= "500vw" height="500vh"  ></canvas>
+
+
+
 
 
 <script type="text/javascript">
@@ -17,6 +23,7 @@
   var ctx = canvas.getContext("2d");
   var w = $("#canvas").width();
   var h = $("#canvas").height();
+
 
   //Lets save the cell width in a variable for easy control
   var cw = 10;
